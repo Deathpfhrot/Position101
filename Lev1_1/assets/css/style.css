@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: url(../img/mountain.jpg) no-repeat center/cover;
+    position: relative;
+
+}
+
+section{
+    text-align: right;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    right: 20%;
+    top: 25%;
+    line-height: 4.5rem;
+}
+
+section h1{
+    font-size: 5rem;
+}
+section p{
+    font-size: 3rem;
+}

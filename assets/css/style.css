@@ -1,0 +1,47 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    height: 300vh;
+}
+
+header{
+    position: sticky;
+    top: 0;/*damit er weis wo er kleben bleiben soll*/
+    background: blue;
+}
+
+h2{
+    position: fixed;
+    top: 0px;
+    right: 30px;
+}
+
+section{
+    height: 200vh;
+    background-color: yellow;
+    position: relative;
+}
+/*transform: translate(-50%, -50%(relative größen einheint); ist mit absolute die kreuz mit zum zentrieren des elements*/
+article{
+    height: 400px;
+    width: 400px;
+    border: 2px solid;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+div{
+    height: 70px;
+    width: 25px;
+    background: black;
+}
+
+div:nth-of-type(1){
+    position: absolute;
+    left: 200px;
+}
